@@ -2,8 +2,8 @@ import axios from "axios";
 
 
 const instance = axios.create({
-    baseURL: "https://fullstack-auth-backend.onrender.com/api/",
-    headers: { "Content-Type": "application/json" } // “Bhai, hum JSON bhej rahe hain”
+    baseURL: "https://fullstack-auth-backend-nz7a.onrender.com/api/",
+    headers: { "Content-Type": "application/json" } 
 })
 
 instance.interceptors.request.use(
