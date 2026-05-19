@@ -325,7 +325,7 @@ function Signup() {
     }
     setLoading(true)
     try {
-      await instance.post('/signup/', form)
+      await instance.post('signup/', form)
       toast.success('Account created! Redirecting... 🎉')
       setTimeout(() => navigate('/login'), 1500)
     } catch (error) {
